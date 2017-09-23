@@ -78,6 +78,7 @@ int main()
    add_edge(node,4,3);
    add_edge(node,5,1);	
   //}
+  cout << "------------Test------------" << endl;
   display_graph(node);
  return 0;
 }
