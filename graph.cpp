@@ -67,13 +67,17 @@ int main()
   struct graph *node=NULL;	
   int n,x,y;
   cout << "Number of Vertices" <<endl;
-  cin >> n;
-  node=create_graph(n);
-  for(int i=0;i<7;i++)
-  { cout << "Enter edge " << endl;
-    cin >> x >>y;
-   add_edge(node,x,y);
-  }
+  //cin >> n;
+  node=create_graph(5);
+  //for(int i=0;i<7;i++)
+  //{ cout << "Enter edge " << endl;
+  //  cin >> x >>y;
+   add_edge(node,1,2);
+   add_edge(node,3,5);
+   add_edge(node,2,4);
+   add_edge(node,4,3);
+   add_edge(node,5,1);	
+  //}
   display_graph(node);
  return 0;
 }
