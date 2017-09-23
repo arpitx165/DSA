@@ -1,5 +1,5 @@
 
-/-------------Undirected Graph----------------/
+//-------------Undirected Graph----------------//
 
 
 
@@ -72,11 +72,11 @@ int main()
   //for(int i=0;i<7;i++)
   //{ cout << "Enter edge " << endl;
   //  cin >> x >>y;
-   add_edge(node,1,2);
-   add_edge(node,3,5);
-   add_edge(node,2,4);
-   add_edge(node,4,3);
-   add_edge(node,5,1);	
+   add_edge(node,0,1);
+   add_edge(node,2,3);
+   add_edge(node,1,4);
+   add_edge(node,3,0);
+   add_edge(node,2,4);	
   //}
   cout << "------------Test------------" << endl;
   display_graph(node);
